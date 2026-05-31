@@ -11,7 +11,7 @@ Usage: sfn-depends [OPTION] STATE_MACHINE_ARN...
 ```
 
 ```sh
-$ sfn-depends -period 1d pool-card-stg-cron-test
-validate pool-card-stg-cron-test
+$ sfn-depends -period 1d cron-test
+validate cron-test
 state machine is successfully completed.
 ```
